@@ -13,6 +13,8 @@ const user = require('../models/user');
 
 router.get('/', user_controller.index);
 
+// register, we don't want to have authentication to register
+router.post('/registration', user_controller.registration);
 // login
 router.post('/', passport.authenticate('local', {session: false}), user_controller.authenticate);
 // logout
