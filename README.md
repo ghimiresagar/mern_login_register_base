@@ -1,4 +1,5 @@
-# Blood Donation Web app
+# Base code for working with mern app with jwt token for authentication
+Able to login and register
 
 This web app is implemented using MERN stack;
 MongoDb,
