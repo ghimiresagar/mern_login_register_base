@@ -72,7 +72,7 @@ const Login = props => {
                     <hr/> <br />
                     <Form.Row>
                         <Form.Group as={Col} md="12" controlId="validationCustomUsername">
-                            <Form.Label>Username:</Form.Label>
+                            <Form.Label>Username/Email:</Form.Label>
                             <InputGroup>
                                 <Form.Control
                                     type="text"

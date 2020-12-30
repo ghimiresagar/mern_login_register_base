@@ -18,7 +18,10 @@ const Header = props => {
 
     const nauthNavBar = () => {
         return (
-            null
+            <Nav className="bg-light">
+                <Nav.Link href="/" className="m-2 bg-light">Login</Nav.Link>
+                <Nav.Link href="/register" className="m-2 bg-light">Register</Nav.Link>
+            </Nav>
         )
     }
 

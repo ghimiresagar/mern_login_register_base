@@ -27,6 +27,7 @@ passport.use(new jwtStrategy({
     });
 }));
 
+// for logging in
 passport.use(new localStrategy((username, password, done) => {
     // console.log("here");
     User.findOne({username}, (err, user) => {
